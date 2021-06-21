@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 export default () => (
   <div>
-    <Link to="/contact/">Contact</Link>
+    <Link to="/dragandrop/">Drag and Drop</Link>
     <br />
     <Link to="/create/">Character Create</Link> 
     <Header headerText="Marvelous" />
