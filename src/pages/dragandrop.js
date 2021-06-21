@@ -1,15 +1,21 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState } from 'react'
+import { Link } from 'gatsby'
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
-import FinalSpace from '../assets/finalspace'
+import _ from 'lodash'
+
+import finalSpace from '../assets/finalspace'
+import deck from '../assets/deck'
 
 import '../styles/dragandrop.css'
 
-const finalSpaceCharacters = FinalSpace
+const finalSpaceCharacters = finalSpace
+// const shuffled = _.shuffle(deck)
+// const cards = shuffled.slice(-10)
+const cards = deck.slice(0,10)
 
 function DragAndDrop() {
-  const [characters, updateCharacters] = useState(finalSpaceCharacters);
+  const [characters, updateCharacters] = useState(cards)
 
   function handleOnDragEnd(result) {
     if (!result.destination) return;
@@ -25,18 +31,19 @@ function DragAndDrop() {
     <div className="DragAndDrop">
       <Link to="/">Home</Link>
       <header className="DragAndDrop-header">
-        <h1>Final Space Characters</h1>
+        <h1>Create Character</h1>
         <DragDropContext onDragEnd={handleOnDragEnd}>
-          <Droppable droppableId="characters">
+          <Droppable droppableId="droppable">
             {(provided) => (
               <ul className="characters" {...provided.droppableProps} ref={provided.innerRef}>
-                {characters.map(({id, name}, index) => {
+                {characters.map((card, index) => {
                   return (
-                    <Draggable key={id} draggableId={id} index={index}>
+                    <Draggable key={card.id} draggableId={card.name} index={index}>
                       {(provided) => (
                         <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                           <p>
-                            { name }
+                            { card.attr }
+                            { card.value }
                           </p>
                         </li>
                       )}
@@ -49,9 +56,6 @@ function DragAndDrop() {
           </Droppable>
         </DragDropContext>
       </header>
-      <p>
-        Images from <a href="https://final-space.fandom.com/wiki/Final_Space_Wiki">Final Space Wiki</a>
-      </p>
     </div>
   );
 }

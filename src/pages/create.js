@@ -14,7 +14,7 @@ const Create = () => {
     <div>
       <Link to="/">Home</Link>
       <Header headerText="Create Your Character" />
-            <SagaCards cards={cards} />
+      <SagaCards cards={cards} />
     </div>
   )
 }
