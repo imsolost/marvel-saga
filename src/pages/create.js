@@ -1,10 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Header from '../components/header'
-import Deck from '../components/deck'
+import Deck from '../assets/deck'
 import SagaCards from '../components/SagaCards/SagaCards'
-
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
 import _ from 'lodash'
 
@@ -16,17 +14,7 @@ const Create = () => {
     <div>
       <Link to="/">Home</Link>
       <Header headerText="Create Your Character" />
-      <DragDropContext>
-        <Droppable droppableId="droppable" mode="virtual">
-          {(provided) => (
-            <SagaCards
-              cards={cards}
-              {...provided.droppableProps}
-              ref={provided.innerRef}
-            />
-          )}
-        </Droppable>
-      </DragDropContext>
+            <SagaCards cards={cards} />
     </div>
   )
 }
