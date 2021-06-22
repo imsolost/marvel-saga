@@ -4,15 +4,12 @@ import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
 import _ from 'lodash'
 
-import finalSpace from '../assets/finalspace'
 import deck from '../assets/deck'
 
 import '../styles/dragandrop.css'
 
-const finalSpaceCharacters = finalSpace
-// const shuffled = _.shuffle(deck)
-// const cards = shuffled.slice(-10)
-const cards = deck.slice(0,10)
+const shuffled = _.shuffle(deck)
+const cards = shuffled.slice(-10)
 
 function DragAndDrop() {
   const [characters, updateCharacters] = useState(cards)
@@ -25,6 +22,12 @@ function DragAndDrop() {
     items.splice(result.destination.index, 0, reorderedItem);
 
     updateCharacters(items);
+    console.log(items);
+  }
+
+  // Used to check color for inline styling
+  function colorFormat(color) {
+    if (color === 'black') return 'white'
   }
 
   return (
@@ -38,13 +41,16 @@ function DragAndDrop() {
               <ul className="characters" {...provided.droppableProps} ref={provided.innerRef}>
                 {characters.map((card, index) => {
                   return (
-                    <Draggable key={card.id} draggableId={card.name} index={index}>
+                    <Draggable key={card.id} draggableId={card.name} index={index} >
                       {(provided) => (
-                        <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
-                          <p>
-                            { card.attr }
-                            { card.value }
-                          </p>
+                        <li
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                          // style={{backgroundColor: card.color, color: colorFormat(card.color)}}
+                        >
+                          <p>{card.attr}</p>
+                          <p>{card.value}</p>
                         </li>
                       )}
                     </Draggable>

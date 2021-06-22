@@ -24,6 +24,7 @@
 }
 
 .characters {
+  columns: 2;
   list-style: none;
   padding-left: 0;
 }
@@ -31,7 +32,9 @@
 .characters li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border: solid 2px #d0d0d0;
+  min-width: 150px;
   border-radius: .2em;
   padding: .5em .8em .5em .5em;
   margin-bottom: 1em;
