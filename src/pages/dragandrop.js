@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
+import { DragDropContext, Droppable } from 'react-beautiful-dnd'
 
 import _ from 'lodash'
 
+import DraggableCard from '../components/DraggableCard'
 import deck from '../assets/deck'
 
 import '../styles/dragandrop.css'
@@ -22,12 +23,6 @@ function DragAndDrop() {
     items.splice(result.destination.index, 0, reorderedItem);
 
     updateCharacters(items);
-    console.log(items);
-  }
-
-  // Used to check color for inline styling
-  function colorFormat(color) {
-    if (color === 'black') return 'white'
   }
 
   return (
@@ -39,23 +34,9 @@ function DragAndDrop() {
           <Droppable droppableId="droppable">
             {(provided) => (
               <ul className="characters" {...provided.droppableProps} ref={provided.innerRef}>
-                {characters.map((card, index) => {
-                  return (
-                    <Draggable key={card.id} draggableId={card.name} index={index} >
-                      {(provided) => (
-                        <li
-                          ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          {...provided.dragHandleProps}
-                          // style={{backgroundColor: card.color, color: colorFormat(card.color)}}
-                        >
-                          <p>{card.attr}</p>
-                          <p>{card.value}</p>
-                        </li>
-                      )}
-                    </Draggable>
-                  );
-                })}
+                {characters.map((card, index) => (
+                  <DraggableCard key={card.id} card={card} index={index} />
+                ))}
                 {provided.placeholder}
               </ul>
             )}
