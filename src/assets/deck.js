@@ -201,7 +201,7 @@ module.exports = [
   },
   {
     id: 26,
-    name: 'Luke Cage',
+    name: 'Archangel',
     value: 4,
     aura: 'negative',
     color: 'red',
@@ -209,7 +209,7 @@ module.exports = [
   },
   {
     id: 27,
-    name: 'Werewolf',
+    name: 'Falcon',
     value: 4,
     aura: 'neutral',
     color: 'red',
@@ -217,7 +217,7 @@ module.exports = [
   },
   {
     id: 28,
-    name: 'Machine Man',
+    name: 'Morbius',
     value: 4,
     aura: 'positive',
     color: 'red',
@@ -225,7 +225,7 @@ module.exports = [
   },
   {
     id: 29,
-    name: 'Luke Cage',
+    name: 'Wasp',
     value: 5,
     aura: 'negative',
     color: 'red',
@@ -233,7 +233,7 @@ module.exports = [
   },
   {
     id: 30,
-    name: 'Werewolf',
+    name: 'Gambit',
     value: 5,
     aura: 'neutral',
     color: 'red',
@@ -241,7 +241,7 @@ module.exports = [
   },
   {
     id: 31,
-    name: 'Machine Man',
+    name: 'Hawkeye',
     value: 5,
     aura: 'positive',
     color: 'red',
@@ -249,7 +249,7 @@ module.exports = [
   },
   {
     id: 32,
-    name: 'Luke Cage',
+    name: 'Human_Torch',
     value: 5,
     aura: 'negative',
     color: 'red',
@@ -257,7 +257,7 @@ module.exports = [
   },
   {
     id: 33,
-    name: 'Luke Cage',
+    name: 'Silver_Sable',
     value: 6,
     aura: 'negative',
     color: 'red',
@@ -265,7 +265,7 @@ module.exports = [
   },
   {
     id: 34,
-    name: 'Werewolf',
+    name: 'Quicksilver',
     value: 6,
     aura: 'neutral',
     color: 'red',
@@ -273,7 +273,7 @@ module.exports = [
   },
   {
     id: 35,
-    name: 'Machine Man',
+    name: 'Elektra',
     value: 6,
     aura: 'positive',
     color: 'red',
@@ -281,7 +281,7 @@ module.exports = [
   },
   {
     id: 36,
-    name: 'Luke Cage',
+    name: 'Black_Cat',
     value: 6,
     aura: 'negative',
     color: 'red',
@@ -289,7 +289,7 @@ module.exports = [
   },
   {
     id: 37,
-    name: 'Luke Cage',
+    name: 'Daredevil',
     value: 7,
     aura: 'negative',
     color: 'red',
@@ -297,7 +297,7 @@ module.exports = [
   },
   {
     id: 38,
-    name: 'Werewolf',
+    name: 'Tigra',
     value: 7,
     aura: 'neutral',
     color: 'red',
@@ -305,7 +305,7 @@ module.exports = [
   },
   {
     id: 39,
-    name: 'Machine Man',
+    name: 'Nightcrawler',
     value: 8,
     aura: 'positive',
     color: 'red',
@@ -313,7 +313,7 @@ module.exports = [
   },
   {
     id: 40,
-    name: 'Luke Cage',
+    name: 'Spiderman',
     value: 9,
     aura: 'negative',
     color: 'red',
@@ -321,7 +321,7 @@ module.exports = [
   },
   {
     id: 41,
-    name: 'Werewolf',
+    name: 'Banshee',
     value: 1,
     aura: 'neutral',
     color: 'purple',
@@ -329,7 +329,7 @@ module.exports = [
   },
   {
     id: 42,
-    name: 'Machine Man',
+    name: 'Moon_Knight',
     value: 2,
     aura: 'positive',
     color: 'purple',
@@ -337,7 +337,7 @@ module.exports = [
   },
   {
     id: 43,
-    name: 'Luke Cage',
+    name: 'Psylocke',
     value: 3,
     aura: 'negative',
     color: 'purple',
@@ -345,7 +345,7 @@ module.exports = [
   },
   {
     id: 44,
-    name: 'Werewolf',
+    name: 'Shang-Chi',
     value: 3,
     aura: 'neutral',
     color: 'purple',
@@ -353,7 +353,7 @@ module.exports = [
   },
   {
     id: 45, 
-    name: 'Machine Man',
+    name: 'Scarlet_Witch',
     value: 4,
     aura: 'positive',
     color: 'purple',
@@ -361,7 +361,7 @@ module.exports = [
   },
   {
     id: 46,
-    name: 'Luke Cage',
+    name: 'Stick',
     value: 4,
     aura: 'negative',
     color: 'purple',
@@ -369,7 +369,7 @@ module.exports = [
   },
   {
     id: 47,
-    name: 'Werewolf',
+    name: 'Storm',
     value: 4,
     aura: 'neutral',
     color: 'purple',
@@ -377,7 +377,7 @@ module.exports = [
   },
   {
     id: 48,
-    name: 'Machine Man',
+    name: 'Franklin_Richards',
     value: 4,
     aura: 'positive',
     color: 'purple',
@@ -385,7 +385,7 @@ module.exports = [
   },
   {
     id: 49,
-    name: 'Luke Cage',
+    name: 'Clea',
     value: 5,
     aura: 'negative',
     color: 'purple',
@@ -393,7 +393,7 @@ module.exports = [
   },
   {
     id: 50,
-    name: 'Werewolf',
+    name: 'Wolverine',
     value: 5,
     aura: 'neutral',
     color: 'purple',
@@ -401,7 +401,7 @@ module.exports = [
   },
   {
     id: 51,
-    name: 'Machine Man',
+    name: 'Invisible_Woman',
     value: 5,
     aura: 'positive',
     color: 'purple',
@@ -409,7 +409,7 @@ module.exports = [
   },
   {
     id: 52,
-    name: 'Luke Cage',
+    name: 'Adam_Warlock',
     value: 5,
     aura: 'negative',
     color: 'purple',
@@ -417,7 +417,7 @@ module.exports = [
   },
   {
     id: 53,
-    name: 'Luke Cage',
+    name: 'Iron_Fist',
     value: 6,
     aura: 'negative',
     color: 'purple',
@@ -425,7 +425,7 @@ module.exports = [
   },
   {
     id: 54,
-    name: 'Werewolf',
+    name: 'Phoenix',
     value: 6,
     aura: 'neutral',
     color: 'purple',
@@ -433,7 +433,7 @@ module.exports = [
   },
   {
     id: 55,
-    name: 'Machine Man',
+    name: 'White_Queen',
     value: 6,
     aura: 'positive',
     color: 'purple',
@@ -441,7 +441,7 @@ module.exports = [
   },
   {
     id: 56,
-    name: 'Luke Cage',
+    name: 'Nate_Grey',
     value: 6,
     aura: 'negative',
     color: 'purple',
@@ -449,7 +449,7 @@ module.exports = [
   },
   {
     id: 57,
-    name: 'Luke Cage',
+    name: 'Professor_X',
     value: 7,
     aura: 'negative',
     color: 'purple',
@@ -457,7 +457,7 @@ module.exports = [
   },
   {
     id: 58,
-    name: 'Werewolf',
+    name: 'Agatha_Harkness',
     value: 7,
     aura: 'neutral',
     color: 'purple',
@@ -465,7 +465,7 @@ module.exports = [
   },
   {
     id: 59,
-    name: 'Machine Man',
+    name: 'Captain_America',
     value: 8,
     aura: 'positive',
     color: 'purple',
@@ -473,7 +473,7 @@ module.exports = [
   },
   {
     id: 60,
-    name: 'Luke Cage',
+    name: 'Doctor_Strange',
     value: 9,
     aura: 'negative',
     color: 'purple',
@@ -481,7 +481,7 @@ module.exports = [
   },
   {
     id: 61,
-    name: 'Werewolf',
+    name: 'Iceman',
     value: 1,
     aura: 'neutral',
     color: 'blue',
@@ -489,7 +489,7 @@ module.exports = [
   },
   {
     id: 62,
-    name: 'Machine Man',
+    name: 'Bishop',
     value: 2,
     aura: 'positive',
     color: 'blue',
@@ -497,7 +497,7 @@ module.exports = [
   },
   {
     id: 63,
-    name: 'Luke Cage',
+    name: 'Havok',
     value: 3,
     aura: 'negative',
     color: 'blue',
@@ -505,7 +505,7 @@ module.exports = [
   },
   {
     id: 64,
-    name: 'Werewolf',
+    name: 'Polaris',
     value: 3,
     aura: 'neutral',
     color: 'blue',
@@ -513,7 +513,7 @@ module.exports = [
   },
   {
     id: 65,
-    name: 'Machine Man',
+    name: 'Cyclops',
     value: 4,
     aura: 'positive',
     color: 'blue',
@@ -521,7 +521,7 @@ module.exports = [
   },
   {
     id: 66,
-    name: 'Luke Cage',
+    name: 'Cable',
     value: 4,
     aura: 'negative',
     color: 'blue',
@@ -529,7 +529,7 @@ module.exports = [
   },
   {
     id: 67,
-    name: 'Werewolf',
+    name: 'Black_Knight',
     value: 4,
     aura: 'neutral',
     color: 'blue',
@@ -537,7 +537,7 @@ module.exports = [
   },
   {
     id: 68,
-    name: 'Machine Man',
+    name: 'Shadowcat',
     value: 4,
     aura: 'positive',
     color: 'blue',
@@ -545,7 +545,7 @@ module.exports = [
   },
   {
     id: 69,
-    name: 'Luke Cage',
+    name: 'Ant-Man',
     value: 5,
     aura: 'negative',
     color: 'blue',
@@ -553,7 +553,7 @@ module.exports = [
   },
   {
     id: 70,
-    name: 'Werewolf',
+    name: 'Doc_Samson',
     value: 5,
     aura: 'neutral',
     color: 'blue',
@@ -561,7 +561,7 @@ module.exports = [
   },
   {
     id: 71,
-    name: 'Machine Man',
+    name: 'Nick_Fury',
     value: 5,
     aura: 'positive',
     color: 'blue',
@@ -569,7 +569,7 @@ module.exports = [
   },
   {
     id: 72,
-    name: 'Luke Cage',
+    name: 'Black_Widow',
     value: 5,
     aura: 'negative',
     color: 'blue',
@@ -577,7 +577,7 @@ module.exports = [
   },
   {
     id: 73,
-    name: 'Luke Cage',
+    name: 'Forge',
     value: 6,
     aura: 'negative',
     color: 'blue',
@@ -585,7 +585,7 @@ module.exports = [
   },
   {
     id: 74, 
-    name: 'Werewolf',
+    name: 'Stingray',
     value: 6,
     aura: 'neutral',
     color: 'blue',
@@ -593,7 +593,7 @@ module.exports = [
   },
   {
     id: 75,
-    name: 'Machine Man',
+    name: 'Black_Panther',
     value: 6,
     aura: 'positive',
     color: 'blue',
@@ -601,7 +601,7 @@ module.exports = [
   },
   {
     id: 76,
-    name: 'Luke Cage',
+    name: 'Moondragon',
     value: 6,
     aura: 'negative',
     color: 'blue',
@@ -609,7 +609,7 @@ module.exports = [
   },
   {
     id: 77,
-    name: 'Luke Cage',
+    name: 'Beast',
     value: 7,
     aura: 'negative',
     color: 'blue',
@@ -617,7 +617,7 @@ module.exports = [
   },
   {
     id: 78,
-    name: 'Werewolf',
+    name: 'Giant-Man',
     value: 7,
     aura: 'neutral',
     color: 'blue',
@@ -625,7 +625,7 @@ module.exports = [
   },
   {
     id: 79,
-    name: 'Machine Man',
+    name: 'Iron_Man',
     value: 8,
     aura: 'positive',
     color: 'blue',
@@ -633,7 +633,7 @@ module.exports = [
   },
   {
     id: 80,
-    name: 'Luke Cage',
+    name: 'Mister_Fantastic',
     value: 9,
     aura: 'negative',
     color: 'blue',
@@ -641,7 +641,7 @@ module.exports = [
   },
   {
     id: 81,
-    name: 'Werewolf',
+    name: 'Rhino',
     value: 1,
     aura: 'neutral',
     color: 'black',
@@ -649,7 +649,7 @@ module.exports = [
   },
   {
     id: 82,
-    name: 'Machine Man',
+    name: 'Electro',
     value: 2,
     aura: 'positive',
     color: 'black',
@@ -657,7 +657,7 @@ module.exports = [
   },
   {
     id: 83,
-    name: 'Luke Cage',
+    name: 'Kingpin',
     value: 3,
     aura: 'negative',
     color: 'black',
@@ -665,7 +665,7 @@ module.exports = [
   },
   {
     id: 84,
-    name: 'Werewolf',
+    name: 'Sabertooth',
     value: 3,
     aura: 'neutral',
     color: 'black',
@@ -673,7 +673,7 @@ module.exports = [
   },
   {
     id: 85,
-    name: 'Machine Man',
+    name: 'Green_Goblin',
     value: 4,
     aura: 'positive',
     color: 'black',
@@ -681,7 +681,7 @@ module.exports = [
   },
   {
     id: 86,
-    name: 'Luke Cage',
+    name: 'Venom',
     value: 4,
     aura: 'negative',
     color: 'black',
@@ -689,7 +689,7 @@ module.exports = [
   },
   {
     id: 87,
-    name: 'Luke Cage',
+    name: 'Taskmaster',
     value: 5,
     aura: 'negative',
     color: 'black',
@@ -697,7 +697,7 @@ module.exports = [
   },
   {
     id: 88,
-    name: 'Werewolf',
+    name: 'Absorbing_Man',
     value: 5,
     aura: 'neutral',
     color: 'black',
@@ -705,7 +705,7 @@ module.exports = [
   },
   {
     id: 89,
-    name: 'Luke Cage',
+    name: 'Juggernaut',
     value: 6,
     aura: 'negative',
     color: 'black',
@@ -713,7 +713,7 @@ module.exports = [
   },
   {
     id: 90,
-    name: 'Werewolf',
+    name: 'Super-Skrull',
     value: 6,
     aura: 'neutral',
     color: 'black',
@@ -721,7 +721,7 @@ module.exports = [
   },
   {
     id: 91,
-    name: 'Luke Cage',
+    name: 'Super-Adaptoid',
     value: 7,
     aura: 'negative',
     color: 'black',
@@ -729,7 +729,7 @@ module.exports = [
   },
   {
     id: 92,
-    name: 'Werewolf',
+    name: 'Leader',
     value: 7,
     aura: 'neutral',
     color: 'black',
@@ -737,7 +737,7 @@ module.exports = [
   },
   {
     id: 93,
-    name: 'Machine Man',
+    name: 'Loki',
     value: 8,
     aura: 'positive',
     color: 'black',
@@ -745,7 +745,7 @@ module.exports = [
   },
   {
     id: 94,
-    name: 'Machine Man',
+    name: 'Annihilus',
     value: 8,
     aura: 'positive',
     color: 'black',
@@ -753,7 +753,7 @@ module.exports = [
   },
   {
     id: 95,
-    name: 'Luke Cage',
+    name: 'Magneto',
     value: 9,
     aura: 'negative',
     color: 'black',
@@ -761,7 +761,7 @@ module.exports = [
   },
   {
     id: 96,
-    name: 'Luke Cage',
+    name: 'Doctor_Doom',
     value: 10,
     aura: 'negative',
     color: 'black',
