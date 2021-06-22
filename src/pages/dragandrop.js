@@ -12,7 +12,7 @@ import '../styles/dragandrop.css'
 const shuffled = _.shuffle(deck)
 const cards = shuffled.slice(-10)
 
-function DragAndDrop() {
+const DragAndDrop = () => {
   const [characters, updateCharacters] = useState(cards)
 
   function handleOnDragEnd(result) {
