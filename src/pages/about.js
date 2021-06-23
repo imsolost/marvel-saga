@@ -4,11 +4,35 @@ import initialData from '../assets/initialData'
 import Column from '../components/Column'
 
 const About = () => {
-  // const [state, setState] = useState({ initialData });
-  const data = initialData
+  const [data, updateState] = useState(initialData);
 
   const handleOnDragEnd = (result) => {
-    
+    if (!result.destination) return
+
+    if (result.destination.droppableId === result.source.droppableId
+      && result.destination.index === result.source.index) {
+      return
+    }
+
+    const column = data.columns[result.source.droppableId]
+    const newTaskIds = Array.from(column.taskIds)
+    newTaskIds.splice(result.source.index, 1)
+    newTaskIds.splice(result.destination.index, 0, result.draggableId)
+
+    const newColumn = {
+      ...column,
+      taskIds: newTaskIds,
+    }
+
+    const newState = {
+      ...data,
+      columns: {
+        ...data.columns,
+        [newColumn.id]: newColumn,
+      }
+    }
+
+    updateState(newState)
   }
 
   return (
