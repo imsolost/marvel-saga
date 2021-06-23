@@ -4,10 +4,10 @@ import { Draggable } from 'react-beautiful-dnd'
 
 const Container = styled.div`
   margin-bottom: 8px;
-  border: 1px solid lightgrey;
+  border: 1px solid ${props => (props.isDragging ? 'black' : 'lightgrey')};
   padding: 8px;
   border-radius: 2px;
-  background-color: ${props => (props.isDragging ? 'lightgreen' : 'white')};
+  background-color: ${props => (props.color)};
 `
 
 const Task = ({ task, index }) => {
@@ -19,6 +19,7 @@ const Task = ({ task, index }) => {
           {...provided.dragHandleProps}
           ref={provided.innerRef}
           isDragging={snapshot.isDragging}
+          color={task.content}
         >
           {task.content}
         </Container>
