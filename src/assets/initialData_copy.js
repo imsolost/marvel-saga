@@ -59,11 +59,21 @@ const initialData = {
   columns: {
     'column-1': {
       id: 'column-1',
-      title: 'To do',
+      title: 'Cards',
       taskIds: Object.keys(deckObj)
+    },
+    'column-2': {
+      id: 'column-2',
+      title: 'Strength',
+      taskIds: []
+    },
+    'column-3': {
+      id: 'column-3',
+      title: 'Agility',
+      taskIds: []
     }
   },
-  columnOrder: ['column-1']
+  columnOrder: ['column-1', 'column-2', 'column-3']
 }
 
 export default initialData
