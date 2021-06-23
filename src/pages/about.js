@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { DragDropContext } from 'react-beautiful-dnd'
-import initialData from '../assets/initialData'
+import initialData from '../assets/initialData_copy'
 import Column from '../components/Column'
 
 const About = () => {

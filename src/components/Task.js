@@ -4,6 +4,7 @@ import { Draggable } from 'react-beautiful-dnd'
 
 const Container = styled.div`
   margin-bottom: 8px;
+  color: lightgrey;
   border: 1px solid ${props => (props.isDragging ? 'black' : 'lightgrey')};
   padding: 8px;
   border-radius: 2px;
@@ -12,16 +13,16 @@ const Container = styled.div`
 
 const Task = ({ task, index }) => {
   return (
-    <Draggable draggableId={task.id} index={index}>
+    <Draggable draggableId={task.name} index={index}>
       {(provided, snapshot) => (
         <Container
           {...provided.draggableProps}
           {...provided.dragHandleProps}
           ref={provided.innerRef}
           isDragging={snapshot.isDragging}
-          color={task.content}
+          color={task.color}
         >
-          {task.content}
+          {task.name}
         </Container>
       )}
     </Draggable>
