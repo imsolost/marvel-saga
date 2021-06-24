@@ -44,6 +44,31 @@ const About = () => {
       return
     }
 
+    // Moving from one list to another
+    const startTaskIds = Array.from(start.taskIds)
+    startTaskIds.splice(result.source.index, 1)
+    const newStart = {
+      ...start,
+      taskIds: startTaskIds
+    }
+
+    const finishTaskIds = Array.from(finish.taskIds)
+    finishTaskIds.splice(result.destination.index, 0, result.draggableId)
+    const newFinish = {
+      ...finish,
+      taskIds: finishTaskIds
+    }
+
+    const newState = {
+      ...data,
+      columns: {
+        ...data.columns,
+        [newStart.id]: newStart,
+        [newFinish.id]: newFinish
+      }
+    }
+
+    updateState(newState)
   }
 
   return (
